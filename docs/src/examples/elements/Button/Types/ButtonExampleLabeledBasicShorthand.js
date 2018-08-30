@@ -7,7 +7,7 @@ const ButtonExampleLabeledBasicShorthand = () => (
       color='red'
       content='Like'
       icon='heart'
-      label={{ basic: true, color: 'red', pointing: 'left', content: '2,048' }}
+      label={{ as: 'a', basic: true, color: 'red', pointing: 'left', content: '2,048' }}
     />
     <Button
       basic
